@@ -1,0 +1,68 @@
+﻿Build started 17-04-2016 Sun 03:26:30 PM.
+     1>Project "C:\Users\reddy\MissionRnDProjects\CMrndTest2\spec\spec.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /AI"C:\Program Files\Windows Kits\8.1\References\CommonConfiguration\Neutral" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\spec.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files\Microsoft Visual Studio 12.0\Common7\IDE\ReferenceAssemblies\v4.0\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib CommonRouteSpec.cpp OddEvenSpec.cpp
+         CommonRouteSpec.cpp
+     1>CommonRouteSpec.cpp(2): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>CommonRouteSpec.cpp(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+         OddEvenSpec.cpp
+     1>OddEvenSpec.cpp(2): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>OddEvenSpec.cpp(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\reddy\missionrndprojects\cmrndtest2\spec\./../src/OddEven.cpp(125): error C2011: 'oddevennode' : 'struct' type redefinition
+                 c:\users\reddy\missionrndprojects\cmrndtest2\spec\./../src/OddEven.cpp(34) : see declaration of 'oddevennode'
+     1>c:\users\reddy\missionrndprojects\cmrndtest2\spec\./../src/OddEven.cpp(133): error C2084: function 'int *oddeven_sll(oddevennode *)' already has a body
+                 c:\users\reddy\missionrndprojects\cmrndtest2\spec\./../src/OddEven.cpp(41) : see previous definition of 'oddeven_sll'
+     1>c:\users\reddy\missionrndprojects\cmrndtest2\spec\./../src/OddEven.cpp(143): error C2027: use of undefined type 'oddevennode'
+                 c:\users\reddy\missionrndprojects\cmrndtest2\spec\./../src/OddEven.cpp(34) : see declaration of 'oddevennode'
+     1>c:\users\reddy\missionrndprojects\cmrndtest2\spec\./../src/OddEven.cpp(143): error C2227: left of '->next' must point to class/struct/union/generic type
+     1>c:\users\reddy\missionrndprojects\cmrndtest2\spec\./../src/OddEven.cpp(147): error C2027: use of undefined type 'oddevennode'
+                 c:\users\reddy\missionrndprojects\cmrndtest2\spec\./../src/OddEven.cpp(34) : see declaration of 'oddevennode'
+     1>c:\users\reddy\missionrndprojects\cmrndtest2\spec\./../src/OddEven.cpp(147): error C2227: left of '->data' must point to class/struct/union/generic type
+     1>c:\users\reddy\missionrndprojects\cmrndtest2\spec\./../src/OddEven.cpp(157): error C2027: use of undefined type 'oddevennode'
+                 c:\users\reddy\missionrndprojects\cmrndtest2\spec\./../src/OddEven.cpp(34) : see declaration of 'oddevennode'
+     1>c:\users\reddy\missionrndprojects\cmrndtest2\spec\./../src/OddEven.cpp(157): error C2227: left of '->random' must point to class/struct/union/generic type
+     1>c:\users\reddy\missionrndprojects\cmrndtest2\spec\./../src/OddEven.cpp(173): error C2027: use of undefined type 'oddevennode'
+                 c:\users\reddy\missionrndprojects\cmrndtest2\spec\./../src/OddEven.cpp(34) : see declaration of 'oddevennode'
+     1>c:\users\reddy\missionrndprojects\cmrndtest2\spec\./../src/OddEven.cpp(173): error C2227: left of '->random' must point to class/struct/union/generic type
+     1>c:\users\reddy\missionrndprojects\cmrndtest2\spec\./../src/OddEven.cpp(180): error C2027: use of undefined type 'oddevennode'
+                 c:\users\reddy\missionrndprojects\cmrndtest2\spec\./../src/OddEven.cpp(34) : see declaration of 'oddevennode'
+     1>c:\users\reddy\missionrndprojects\cmrndtest2\spec\./../src/OddEven.cpp(180): error C2227: left of '->next' must point to class/struct/union/generic type
+     1>OddEvenSpec.cpp(35): error C2027: use of undefined type 'oddevennode'
+                 c:\users\reddy\missionrndprojects\cmrndtest2\spec\./../src/OddEven.cpp(34) : see declaration of 'oddevennode'
+     1>OddEvenSpec.cpp(35): error C2227: left of '->data' must point to class/struct/union/generic type
+     1>OddEvenSpec.cpp(36): error C2027: use of undefined type 'oddevennode'
+                 c:\users\reddy\missionrndprojects\cmrndtest2\spec\./../src/OddEven.cpp(34) : see declaration of 'oddevennode'
+     1>OddEvenSpec.cpp(36): error C2227: left of '->next' must point to class/struct/union/generic type
+     1>OddEvenSpec.cpp(37): error C2027: use of undefined type 'oddevennode'
+                 c:\users\reddy\missionrndprojects\cmrndtest2\spec\./../src/OddEven.cpp(34) : see declaration of 'oddevennode'
+     1>OddEvenSpec.cpp(37): error C2227: left of '->random' must point to class/struct/union/generic type
+     1>OddEvenSpec.cpp(48): error C2027: use of undefined type 'oddevennode'
+                 c:\users\reddy\missionrndprojects\cmrndtest2\spec\./../src/OddEven.cpp(34) : see declaration of 'oddevennode'
+     1>OddEvenSpec.cpp(48): error C2227: left of '->next' must point to class/struct/union/generic type
+     1>OddEvenSpec.cpp(56): error C2027: use of undefined type 'oddevennode'
+                 c:\users\reddy\missionrndprojects\cmrndtest2\spec\./../src/OddEven.cpp(34) : see declaration of 'oddevennode'
+     1>OddEvenSpec.cpp(56): error C2227: left of '->data' must point to class/struct/union/generic type
+     1>OddEvenSpec.cpp(62): error C2027: use of undefined type 'oddevennode'
+                 c:\users\reddy\missionrndprojects\cmrndtest2\spec\./../src/OddEven.cpp(34) : see declaration of 'oddevennode'
+     1>OddEvenSpec.cpp(62): error C2227: left of '->next' must point to class/struct/union/generic type
+     1>OddEvenSpec.cpp(105): error C2027: use of undefined type 'oddevennode'
+                 c:\users\reddy\missionrndprojects\cmrndtest2\spec\./../src/OddEven.cpp(34) : see declaration of 'oddevennode'
+     1>OddEvenSpec.cpp(105): error C2227: left of '->data' must point to class/struct/union/generic type
+     1>OddEvenSpec.cpp(107): error C2027: use of undefined type 'oddevennode'
+                 c:\users\reddy\missionrndprojects\cmrndtest2\spec\./../src/OddEven.cpp(34) : see declaration of 'oddevennode'
+     1>OddEvenSpec.cpp(107): error C2227: left of '->random' must point to class/struct/union/generic type
+     1>OddEvenSpec.cpp(124): error C3861: 'oddeven_sll': identifier not found
+     1>OddEvenSpec.cpp(124): error C2440: 'initializing' : cannot convert from 'int *(__cdecl *)(oddevennode *)' to 'int *'
+                 There is no context in which this conversion is possible
+     1>OddEvenSpec.cpp(146): error C3861: 'oddeven_sll': identifier not found
+     1>OddEvenSpec.cpp(146): error C2440: 'initializing' : cannot convert from 'int *(__cdecl *)(oddevennode *)' to 'int *'
+                 There is no context in which this conversion is possible
+     1>OddEvenSpec.cpp(152): error C2027: use of undefined type 'oddevennode'
+                 c:\users\reddy\missionrndprojects\cmrndtest2\spec\./../src/OddEven.cpp(34) : see declaration of 'oddevennode'
+     1>OddEvenSpec.cpp(152): error C2227: left of '->next' must point to class/struct/union/generic type
+         Generating Code...
+     1>Done Building Project "C:\Users\reddy\MissionRnDProjects\CMrndTest2\spec\spec.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.78
