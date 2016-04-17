@@ -159,7 +159,7 @@ int * oddeven_sll(struct oddevennode *head)
 				start1++;
 			}
 			//res = (int*)realloc(res, 1 * sizeof(int));
-			res[0] = start1;
+			res[1] = start1;
 		}
 		else if (x % 2 != 0)
 		{
@@ -175,7 +175,7 @@ int * oddeven_sll(struct oddevennode *head)
 				start2++;
 			}
 			//res = (int*)realloc(res, 2 * sizeof(int));
-			res[1] = start2;
+			res[0] = start2;
 		}
 		node = node->next;
 	}

@@ -46,10 +46,87 @@ First Island in DTD ie 'D' occurs alphabatically before 'H' and 'Z')
 
 #include <stdlib.h>
 #include <stdlib.h>
+#include <malloc.h>
 #include <stdio.h>
+#define SIZE 31
 
+char * find_common_route(char * hacklist, char *codelist, int *cost)
+{
+	char *comm = NULL;
+	char ch[5][100];
+	//comm = (char*)malloc(0 * sizeof(char*));
+	int start[10], end[10], count = 0, i = 0, j = 0;
+	while (hacklist[i] != '\0')
+	{
+		j = 0;
+		while (codelist[j] != '\0')
+		{
+			if (hacklist[i] == codelist[j])
+			{
+				start[count] = i;
+				while ()
+			}
+			else
+				i++;
+			j++;
+		}
 
-char * find_common_route(char * hacklist, char *codelist, int *cost){
+	}
 	return NULL;
 }
+
+
+//char *c = NULL;
+//int i = 0, j = 0, k = 0, count = 0, row = 0, l = 0, col = 0;
+//if (hacklist == NULL || codelist == NULL)
+//	return NULL;
+//c = (char*)malloc(0 * sizeof(char));
+//while (hacklist[i] != '\0')
+{
+	k = i;
+	while (hacklist[i] == codelist[j] && hacklist[i] != ' ')
+	{
+		i++;
+		j++;
+	}
+	if ((hacklist[i] == '\0' || hacklist[i] == ' ') && (codelist[j] == ' ' || codelist[j] == '\0') && (i != 0) && (j != 0))
+	{
+		count++;
+		c = (char*)realloc(c, count*sizeof(char));
+		col = 0;
+		//c[row] = (char*)malloc(SIZE*sizeof(c));
+		l = k;
+		while (l < i)
+		{
+			//*c[row][col] = hacklist[l];
+			c[row] = hacklist[l];
+			l++;
+			col++;
+		}
+		c[row][col] = '\0';
+		c[row] = '\0';
+		row++;
+		i++;
+		j = 0;
+	}
+	else
+	{
+		while (codelist[j] != ' '&& codelist[j] != '\0')
+			j++;
+		if (codelist[j] == '\0')
+		{
+			j = 0;
+			while (codelist[i] != ' '&& hacklist[i] != '\0')
+				i++;
+			if (hacklist[i] != '\0')
+				i++;
+		}
+		else
+			j++;
+	}
+}
+if (count == 0)
+return NULL;
+else
+return c;
 
